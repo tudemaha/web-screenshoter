@@ -1,0 +1,9 @@
+# VS Code Settings
+.vscode/*
+__pycache__
+
+# images folder
+images
+
+# testing file
+test.py
