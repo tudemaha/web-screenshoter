@@ -1,4 +1,3 @@
-from turtle import done, down
 import streamlit as st
 import webbrowser
 import time
@@ -17,7 +16,7 @@ st.set_page_config(
         'About': '''
             ## Web Screen-Shoter!
             Visit the GitHub repository: https://github.com/tudemaha/web-screenshoter
-            
+
             Created with :heart: by [Tude Maha](https://instagram.com/tudemaha)
         '''
     })
