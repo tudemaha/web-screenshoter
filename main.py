@@ -43,6 +43,8 @@ with col1:
                 image.save(save_in)
                 with col2:
                     st.image(image)
+                time.sleep(0.5)
+                pyautogui.hotkey('ctrl', 'f4')
 
             with ZipFile('screenshots.zip', 'w') as zipObj:
                 for i, _ in enumerate(urls):

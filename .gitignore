@@ -10,3 +10,6 @@ test.py
 
 # virtual environment
 env/*
+
+# output zip
+screenshots.zip
